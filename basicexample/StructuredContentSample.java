@@ -248,20 +248,19 @@ public class StructuredContentSample {
    */
   private Product createProduct(String id) {
     Product product = new Product();
-    product.title = "Red wool sweater";
+    product.title = "Ipad3 3g/4g + Wifi 16gb Ipad 3 Desbloqueado Lançamento!";
     product.content =
         new Content(
             "text",
-            "Comfortable and soft, this sweater will keep you warm on those "
-            + "cold winter nights. Red and blue stripes.");
+            "Somos Loja Temos Ipod Nano Suffle Touch Iphone 4s Ipad 3 Lacrados");
     product.appControl = new AppControl();
     product.appControl.addRequiredDestination("ProductAds");
 
     product.externalId = id;
-    product.lang = "de";
-    product.country = "DE";
+    product.lang = "pt";
+    product.country = "BR";
     product.condition = "new";
-    product.price = new Price("EUR", new BigDecimal("12.99"));
+    product.price = new Price("BRL", new BigDecimal("2199.99"));
 
     // add a link
     Link link = new Link();
